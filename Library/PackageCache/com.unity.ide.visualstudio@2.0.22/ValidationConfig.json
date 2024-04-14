@@ -1,0 +1,15 @@
+{
+  "FileContentKeywordValidation": {
+    "Keywords": [
+      {
+        "Targets": "+",
+        "Files": [
+          "Editor/VisualStudioForWindowsInstallation.cs"
+        ],
+        "Patterns": [
+          "vswhere\\.exe"
+        ]
+      }
+    ]
+  }
+}
