@@ -87,3 +87,7 @@
     * The above code holds a public `GameObject` which holds the projectile prefab. On each frame render, if the `f` button is being pressed, a stopwatch is started that determines how long the button is being held. When the button is released or has been pressed for the maximum amount of time, a `Projectile` is instantiated and then given a relative force, which determines the direction and velocity at which the object will travel. The stopwatch elapsed time is used with a default velocity to calculate the final release velocity. An additional timer is included to make sure the launch button is released before the next shot and that the time between shots is at least half a second.
 
 - Finally, to finish the projectile launching, go to the player's inspector and under the component containing the script, then drag the `Projectile` prefab from the project `assets` directory into the variable slot for the public `Projectile`. This will set the variable, thus allowing the player to properly instantiate a `Projectile` object.
+
+## Sources
+- https://learn.unity.com/tutorial/using-c-to-launch-projectiles
+- https://discussions.unity.com/t/why-are-my-projectiles-moving-at-an-angle/81583/2
